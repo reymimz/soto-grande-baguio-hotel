@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Great+Vibes&family=Nunito:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+
+.cb-wrapper {
+  width: 100%;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  .c-booking {
+    width: 35rem;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7) url("https://i.ibb.co/Cz3FVkY/pic7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 25rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-blend-mode: darken;
+    margin-right: 1rem;
+
+    .c-content {
+      margin-left: 4rem;
+      width: 100%;
+
+      .c-title {
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 500;
+        font-family: "Alkalami", serif;
+        letter-spacing: 1px;
+      }
+      .c-price {
+        color: #fff;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+      }
+
+      .cb-btn {
+        background-color: white;
+        margin-bottom: 3rem;
+        max-width: 11rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+
+        .cb-label {
+          font-size: 1rem;
+          font-weight: 500;
+          text-transform: uppercase;
+          color: black;
+          letter-spacing: 1px;
+          font-family: "Nunito", sans-serif;
+        }
+
+        &:hover {
+          background-color: orange;
+
+          .cb-label {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .c-booking2 {
+    width: 35rem;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7) url("https://i.ibb.co/vzdWj5d/pic10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 25rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-blend-mode: darken;
+
+    .c-content2 {
+      margin-left: 4rem;
+      width: 100%;
+
+      .c-title2 {
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 500;
+        font-family: "Alkalami", serif;
+        letter-spacing: 1px;
+      }
+      .c-price2 {
+        color: #fff;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+      }
+
+      .cb-btn2 {
+        background-color: white;
+        margin-bottom: 3rem;
+        max-width: 11rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+
+        .cb-label2 {
+          font-size: 1rem;
+          font-weight: 500;
+          text-transform: uppercase;
+          color: black;
+          letter-spacing: 1px;
+          font-family: "Nunito", sans-serif;
+        }
+
+        &:hover {
+          background-color: orange;
+
+          .cb-label2 {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 950px) {
+  .cb-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+   
+      .c-booking {
+         margin:0.5rem 2rem;
+         width: 100%;
+
+      }
+
+       .c-booking2 {
+         margin: 0 2rem;
+         width: 100%;
+  
+      }
+  }
+}
+
+
+
+

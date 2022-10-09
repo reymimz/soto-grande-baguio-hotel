@@ -1,0 +1,49 @@
+.shadow {
+  background-image: linear-gradient(
+    to right bottom,
+    #ffffff,
+    #fffdff,
+    #fffbfc,
+    #fffaf5,
+    #fffbf0
+  );
+  margin-top: 2rem;
+  width: 100%;
+  
+  .m-wrapper{
+   visibility: visible;
+
+  .cf-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #2c384af2;
+
+    &:hover {
+      color: orangered;
+    }
+  }
+  }
+}
+
+
+@media only screen and (max-width: 520px) {
+
+.shadow{
+  width: inherit;
+
+  .cbox-wrapper{
+    margin-top: 3rem;
+  
+  .m-wrapper{
+   visibility: hidden;
+  .cf{
+    margin-left: 1rem;
+  }
+  }
+    .cl{
+    margin-right: 4rem;
+    
+  }
+}
+}
+}

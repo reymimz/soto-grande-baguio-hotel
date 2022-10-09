@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.review {
+  width: 100%;
+  background-image: linear-gradient(
+    to left,
+    #ffffff,
+    #fffcff,
+    #fff8f8,
+    #fff6eb,
+    #fff8e1
+  );
+
+  .active {
+    font-size: 1rem;
+    padding: 1rem 1.3rem;
+    border-bottom: 1px solid orangered;
+
+    &:hover {
+      background-color: lightgrey;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .review {
+    .active {
+      border-bottom: none;
+    }
+  }
+}

@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #fffeff,
+    #fffdfd,
+    #fffdf9,
+    #fffef6
+  );
+  .h-main {
+    background: url("https://i.ibb.co/9nD5LKx/pic1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 30rem;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-width: 100%;
+    position: relative;
+
+    .h-brow {
+      min-width: 50%;
+      min-height: 7rem;
+      position: absolute;
+      bottom: -3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+      gap: 5px;
+      background-color: #fff;
+      border-radius: 5px;
+
+      .h-left {
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.22);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0.8px);
+        -webkit-backdrop-filter: blur(0.8px);
+        box-shadow: -13px -13px 43px -63px rgba(255, 255, 255, 0.83);
+        -webkit-box-shadow: -13px -13px 43px -63px rgba(255, 255, 255, 0.83);
+        -moz-box-shadow: -13px -13px 43px -63px rgba(255, 255, 255, 0.83);
+      }
+      .h-center {
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.22);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0.8px);
+        -webkit-backdrop-filter: blur(0.8px);
+        box-shadow: -13px -13px 43px -63px rgba(255, 255, 255, 0.83);
+        -webkit-box-shadow: -13px -13px 43px -63px rgba(255, 255, 255, 0.83);
+        -moz-box-shadow: -13px -13px 43px -63px rgba(255, 255, 255, 0.83);
+
+        .d-wrapper {
+          color: #fff;
+        }
+      }
+      .h-right {
+        min-width: 14rem;
+        min-height: 3.5rem;
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+
+        .d-book {
+          font-size: 1.4rem;
+          font-weight: 500;
+          color: #fff;
+  
+        }
+
+        &:hover {
+          transition: all 0.2s ease-in;
+          background-color: orangered;
+          cursor: pointer;
+          transform: translateX(10px);
+        }
+      }
+    }
+  }
+
+  .h-p-wrapper {
+    width: 80%;
+    min-height: 10rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+
+    .h-p1 {
+      margin: 2rem 0;
+    }
+  }
+
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+    min-height: 30rem;
+    margin: 2rem 0 1rem;
+
+    .cf-card{
+          width: 25rem;
+          max-height: 30rem;
+          margin-right: 1rem;
+          margin-top: 3rem;
+          border: none;
+        }
+
+    .cf-image{
+      max-height: 16rem;
+      width: 100%;
+      object-fit: cover;   
+    }
+
+    .cf-title {
+      color: #7294a8;
+      font-family: "Great Vibes", cursive;
+      font-size: 2.1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cf-des {
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+
+  .ccd-warpper{
+    width: 100%;
+    padding: 0 4rem;
+  }
+}
+
+
+@media only screen and (max-width: 890px) {
+
+  .home {
+    .h-main {   
+      .h-brow {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1rem;    
+        border-radius: 5px;
+
+        .h-left {
+          width: 100%;
+          height: unset !important;
+          
+        }
+        .h-center {
+          width: 100%;
+          height: unset !important;
+          margin: 0.5rem 0;
+        }
+        .h-right {
+          width: 16rem;
+          height: unset !important;
+        }
+      }
+    }
+      .h-p-wrapper {
+        width: 100%;
+        height: inherit;    
+        margin: 0;
+    }
+     .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 0 2rem;
+        padding-top: 2rem;
+        width: 100%;
+  
+        .cf-card{
+          width: 100%;      
+          height: inherit;
+          margin-bottom: 6rem;   
+          background-color: transparent;
+          align-self: center;  
+          margin-top: 1rem;   
+        }       
+        .cf-image{
+          width: 100%;         
+        }
+     }
+  }
+}
+
+
+  

@@ -1,0 +1,29 @@
+.book-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.6rem;
+  min-width: 10rem;
+
+  .btn-book {
+    height: inherit;
+    width: 10rem;
+    background-color: rgb(255, 145, 0);
+    clip-path: polygon(14% 0, 100% 0, 100% 57%, 86% 100%, 0 100%, 0 46%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      color: #fff;
+      font-weight: 400;
+    }
+
+    &:hover {
+      transition: all 0.2s ease-in;
+      background-color: orangered;
+      cursor: pointer;
+      transform: translateX(10px);
+    }
+  }
+}

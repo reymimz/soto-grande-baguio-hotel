@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.h-info-wrapper {
+  width: 80%;
+  min-height: 30rem;
+  background-image: linear-gradient(
+    to right top,
+    #fff7e1,
+    #fff6ec,
+    #fff7f8,
+    #fffbff,
+    #ffffff
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 2rem;
+  position: absolute;
+  bottom: -15rem;
+
+  .h-why {
+    font-size: 5rem;
+    margin: 4rem;
+    color: #7294a8;
+  }
+
+  .h-info-row {
+    margin-right: 10rem;
+    border-left: 1px solid orange;
+
+    h6 {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .h-info-wrapper {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+
+    .h-why {
+    }
+
+    .h-info-row {
+      h6 {
+      }
+    }
+  }
+}

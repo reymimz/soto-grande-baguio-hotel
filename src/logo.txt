@@ -1,0 +1,19 @@
+<img src="https://i.ibb.co/svn1CNJ/soto.jpg" alt="soto" border="0">
+
+
+
+
+ title: "Apart from comfortable rooms, this hotel in Quezon City has put together a list of facilities for business and leisure that will provide more pleasure and convenience to all guests.",
+        other: "For group events, the hotel accommodation in Quezon City has a catering menu that fits various occasions.",
+        meeting: 
+            mh1: "For Meetings and Events",
+            mb1: "La Breza Ballroom – Covering 270 sqm, it can accommodate up to 200 guests banquet-style or 350 guests theater-style. The ballroom can also be divided into 3 smaller rooms.",
+            mb2: "Conference halls – With an area ranging from 65 to 135 sqm, these are ideal venues for more private meetings and events.",
+            mb3: "Boardroom – Catering to up to 20 persons, the Boardroom ensures that all your meeting needs are addressed with ease and efficiency.",
+        },
+        dining: {
+            dh1: "For Dining and Recreation",
+            db1: "Cafe La Breza – this restaurant at the hotel’s ground floor serves scrumptious Filipino and international dishes",
+            dh2: "Gym – fully equipped to meet your health and fitness requirements",
+            dh3: "Swimming pool – open daily from 3PM to 5PM"
+        }
