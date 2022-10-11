@@ -9,23 +9,13 @@ import Location from "./screens/location/Location";
 import About from "./screens/about/About";
 import Contact from "./screens/contact/Contact";
 import Home from "./screens/home/Home";
+import CNavbar from "./components/cnavbar/CNavbar";
 
 const App = () => {
   return (
-<<<<<<< HEAD
-
-
-    
     <>
+      <CNavbar />
       <div className="root">
-=======
-  	<>
-  	
-      <div className="root">
-    
-    <CNavbar/>
-
->>>>>>> parent of 75b43f9 (Adding rating star in Reviews)
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

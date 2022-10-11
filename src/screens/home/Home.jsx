@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./home.scss";
-import CNavbar from "../../components/navbar/CNavbar";
 import TextField from "@mui/material/TextField";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
@@ -14,16 +13,11 @@ import LineTitle from "../../components/linetitle/LineTitle";
 
 const Home = () => {
   const [startDate, setStartDate] = useState(null);
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> parent of 75b43f9 (Adding rating star in Reviews)
   const [endDate, setEndDate] = useState(null);
 
   return (
     <>
-      <CNavbar />
       <div className="home">
         <div className="h-main">
           <div className="h-brow">
@@ -56,15 +50,11 @@ const Home = () => {
               <span className="d-book">BOOK NOW</span>
             </div>
           </div>
-        </div>      
-            <LineTitle label="Soto Grande Baguio Hotel | Baguio City, Philippines"/> 
+        </div>
+        <LineTitle label="Soto Grande Baguio Hotel | Baguio City, Philippines" />
         <div className="h-p-wrapper">
-          <p className="h-p1">
-            {hParags.p1}
-          </p>
-          <p className="h-p2">
-         {hParags.p2}
-          </p>
+          <p className="h-p1">{hParags.p1}</p>
+          <p className="h-p2">{hParags.p2}</p>
         </div>
         <div className="card-wrapper">
           {HCardList.map((item, i) => {
@@ -86,7 +76,6 @@ const Home = () => {
       <div className="ccd-wrapper">
         <CCardBooking />
       </div>
-      
     </>
   );
 };
