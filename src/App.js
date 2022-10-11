@@ -12,11 +12,20 @@ import Home from "./screens/home/Home";
 
 const App = () => {
   return (
+<<<<<<< HEAD
 
 
     
     <>
       <div className="root">
+=======
+  	<>
+  	
+      <div className="root">
+    
+    <CNavbar/>
+
+>>>>>>> parent of 75b43f9 (Adding rating star in Reviews)
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

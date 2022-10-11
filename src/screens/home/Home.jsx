@@ -14,7 +14,11 @@ import LineTitle from "../../components/linetitle/LineTitle";
 
 const Home = () => {
   const [startDate, setStartDate] = useState(null);
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> parent of 75b43f9 (Adding rating star in Reviews)
   const [endDate, setEndDate] = useState(null);
 
   return (

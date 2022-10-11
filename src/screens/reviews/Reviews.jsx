@@ -38,7 +38,7 @@ const Reviews = () => {
                   key={index}
                   icon={item.icon}
                   name={item.name}
-                  star={item.ratings}
+                  star={item.star}
                   time={item.time}
                   content={item.content}
                 />
